@@ -273,7 +273,44 @@ The Chess Team Builder should not duplicate calculations already reliably
 performed by the external pairing system unless this becomes necessary later.
 
 ---
+## 8. Tournament Results
 
+After each round, results are imported from the external pairing system.
+
+The application associates each individual player result with the player's team.
+
+### Team Score
+
+The team score is the sum of the individual scores of all team members.
+
+Standard chess scoring applies:
+
+- Win = 1 point
+- Draw = 0.5 point
+- Loss = 0 points
+
+For a team of 3 players, the maximum team score per round is therefore 3 points.
+
+Example:
+
+- Player 1: 1 point
+- Player 2: 0.5 point
+- Player 3: 1 point
+
+**Team score = 2.5 points**
+
+After every round, the application automatically recalculates the cumulative
+team score.
+
+### Ranking
+
+Teams are ranked by:
+
+1. Highest cumulative team score
+2. Highest Buchholz score in case of equal team scores
+
+The ranking is automatically updated after every imported round and is used
+to generate the prize-giving list.
 ## 10. Prize-giving List
 
 After every round, the application automatically creates a current
