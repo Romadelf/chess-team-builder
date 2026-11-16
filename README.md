@@ -93,6 +93,7 @@ between teams while promoting international diversity where possible.
 ## 3. Tournament Workflow
 
 The complete workflow is:
+
 **Team generation → Automatic**  
 **Pairing → External**  
 **Results + Buchholz → Import**  
@@ -519,6 +520,7 @@ The priorities of the application are:
 6. **Simple operation for the arbiter**
 
 In short:
+
 **Balanced teams before the tournament.  
 External pairings during the tournament.  
 Imported results and Buchholz after each round.  
