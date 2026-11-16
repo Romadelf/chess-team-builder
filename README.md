@@ -181,10 +181,12 @@ Initially supported country codes:
 
 Example CSV:
 
+```
 Name,Rating,Country
 Player One,1950,NL
 Player Two,1820,BE
 Player Three,1710,DE
+```
 
 The application should validate imported data and handle invalid or incomplete
 records appropriately.
