@@ -7,7 +7,7 @@ The Chess Team Builder distributes tournament participants into balanced teams b
 
 The goal is to create teams that are as evenly matched as possible.
 
-A manual with detailed insights of this app internals is available at the ([end of this readme](https://github.com/wieringa/chess-team-builder#manual)).
+A manual with detailed insights of this app internals is available at the ([end of this readme](#manual)).
 
 ## Features
 - Automatic team generation  
