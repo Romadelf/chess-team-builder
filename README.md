@@ -52,6 +52,10 @@ A manual with detailed insights of this app internals is available at the ([end 
 ## License
 - Public Domain Dedication
 
+<br>
+<br>
+
+---
 
 
 # Manual
